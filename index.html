@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="src/img/favicon.svg" type="image/x-icon">
+        <title>2048 | Game</title>
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="src/css/style.css" />
+        <script src="src/js/main.js" defer></script>
+    </head>
+    <body>
+        <div class="wrapper container">
+            <div class="wrapper-header">
+                <h1 class="wrapper-title">2048</h1>
+                <div class="score">
+                    <p>SCORE</p>
+                    <span>0</span>
+                </div>
+                <div class="score best">
+                    <p>BEST</p>
+                    <span>0</span>
+                </div>
+                <div class="new">
+                    <span>NEW</span>
+                </div>
+            </div>
+            <h2 class="description">
+                HOW TO PLAY:<span> Use your arrow keys to move the tiles. Tiles with the same number merge into one when they touch. Add them up to reach 2048!</span>
+            </h2>
+            <div class="board" id="board">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="tryAgain">Try Again</div>
+            </div>
+        </div>
+        <div class="arrows container">
+            <div id="ArrowLeft" class="arrow"><i class="bx bxs-left-arrow"></i></div>
+            <div id="ArrowUp" class="arrow"><i class="bx bxs-up-arrow"></i></div>
+            <div id="ArrowDown" class="arrow down"><i class="bx bxs-down-arrow"></i></div>
+            <div id="ArrowRight" class="arrow right"><i class="bx bxs-right-arrow"></i></div>
+        </div>
+    </body>
+</html>
